@@ -4,6 +4,10 @@
 ; Copyright (c) 2020 Ross Bamford (roscopeco@gmail.com)
 ; *************************************************************
 ;
+; This is still a brute-force approach (using triple nested loops :o ) but
+; runs across the problem set in ~8.2 seconds on a 10MHz 68010, or 
+; ~6.8 seconds on a 12MHz 68020, so I don't feel too bad :D 
+; 
 ; Note - There's some optional MC68020 code in here that uses native 32-bit
 ; unsigned multiply on that CPU - Make with:
 ;
